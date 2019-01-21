@@ -1,7 +1,7 @@
 {
   "name": "fizz-buzz-js-tdd",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lib for the JS com TDD na prática course.",
   "main": "index.js",
   "dependencies": {
     "npm": "^6.6.0"
@@ -20,6 +20,11 @@
     "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
     "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register --watch"
   },
-  "author": "",
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Eder Christian <ederchristian92@gmail.com> (http://ederchristian.com/)",
   "license": "ISC"
 }
