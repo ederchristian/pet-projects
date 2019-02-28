@@ -57,6 +57,4 @@ I'd love if you can help me to improve this simple app. Everybody is able to mak
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
