@@ -11,25 +11,44 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    position: relative;
+    padding-top: 6.4rem;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .star-wars-group__title {
-    text-align: center;
     padding-bottom: 1.6rem;
 }
 
-h1, li {
+h1, li, p, a {
     color: yellow;
 }
 
 h1 {
     margin: 0;
     padding: .8rem;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 li {
     font-weight: 400;
+    font-size: 3rem;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    border-top: .1rem solid rgba(255, 255, 0, .3);
+    padding: 1.6rem 0;
+}
+
+p {
+    opacity: .7;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
