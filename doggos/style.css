@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: darkgreen;
+}
+
+button {
+    background: darkgreen;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 4px 16px;
+    border-radius: 5px;
+    border: 1px solid darkgreen;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: all .5s ease;
+}
+
+button:hover {
+    background: transparent;
+    color: darkgreen;
+}
+
+button:focus {
+    outline: 2px solid rgba(0, 100, 0, .5);
+}
+
+.doggos {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.doggos img {
+    margin: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .3);
+}
