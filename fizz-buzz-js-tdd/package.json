@@ -4,7 +4,7 @@
   "description": "Lib for the JS com TDD na prática course.",
   "main": "index.js",
   "dependencies": {
-    "npm": "^6.6.0"
+    "npm": "^6.13.4"
   },
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
